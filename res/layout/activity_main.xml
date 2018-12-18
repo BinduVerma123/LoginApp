@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Name"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="93dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Login"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No of attempts remaining: "
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+</LinearLayout>
